@@ -1,5 +1,7 @@
 # Omega-Mods – ComboPathFix
 
+➡️ Get the latest version from **[Releases](../../releases)** (grab `FS25_OmegaMods_ComboPathFix.zip`).
+
 **Category:** Gameplay (script only)  
 **Game:** Farming Simulator 25
 
