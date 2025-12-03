@@ -1,6 +1,6 @@
 # Omega-Mods – ComboPathFix
 
-[![Download](https://img.shields.io/badge/Download-Releases-blue)](../../releases)
+[![Download](https://img.shields.io/badge/Download-Releases-blue)](../../releases)  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 
 ➡️ Get the latest version from **[Releases](../../releases)** (grab `FS25_OmegaMods_ComboPathFix.zip`).
 
