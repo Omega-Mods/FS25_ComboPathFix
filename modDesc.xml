@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="105">
+  <author>Omega-Mods</author>
+  <version>1.0.0.0</version>
+  <title>
+    <en>Omega-Mods – ComboPathFix</en>
+	<de>Omega-Mods – ComboPathFix</de>
+    <it>Omega-Mods – ComboPathFix</it>
+  </title>
+  <description>
+    <en>
+      Fix for &lt;combination&gt; XML paths: allows referencing other mods via
+      $moddir&lt;OtherModName&gt;$/path.xml (also accepts moddir&lt;OtherModName&gt;$/path.xml).
+      Works at vehicle load and Store linking. Safe for SP/MP.
+    </en>
+
+    <de>
+      Fix für &lt;combination&gt;-XML-Pfade: ermöglicht das Referenzieren von XML-Dateien
+      aus anderen Mods über $moddir&lt;ModName&gt;$/path.xml (akzeptiert auch moddir&lt;ModName&gt;$/path.xml).
+      Funktioniert beim Fahrzeugladen und bei der Shop-Verknüpfung. Sicher in SP/MP.
+    </de>	
+	
+    <it>
+      Fix per i percorsi &lt;combination&gt;: permette di referenziare XML di altri mod con
+      $moddir&lt;NomeAltroMod&gt;$/percorso.xml (accetta anche moddir&lt;NomeAltroMod&gt;$/percorso.xml).
+      Funziona al caricamento veicoli e nel negozio. Sicuro per SP/MP.
+    </it>
+  </description>
+
+  <iconFilename>icon.dds</iconFilename>
+  <multiplayer supported="true"/>
+
+  <extraSourceFiles>
+    <sourceFile filename="scripts/ComboPathFix.lua"/>
+  </extraSourceFiles>
+
+  <specializations>
+    <specialization name="comboPathFix" className="ComboPathFix" filename="scripts/ComboPathFix.lua"/>
+  </specializations>
+
+  <categories>
+    <category>gameplay</category>
+  </categories>
+
+  <l10n>
+    <text name="mod_omegamods_combopathfix_title">
+      <en>ComboPathFix</en>
+	  <de>ComboPathFix</de>
+      <it>ComboPathFix</it>
+    </text>
+  </l10n>
+</modDesc>

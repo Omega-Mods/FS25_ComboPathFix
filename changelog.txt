@@ -1,0 +1,5 @@
+Version 1.0.0.0
+
+* Initial release: resolves $moddir<ModName>$/path.xml in <combination> entries
+* Store linking pre-pass + Utils.getFilename umbrella hook
+* Multiplayer-safe, non-invasive
